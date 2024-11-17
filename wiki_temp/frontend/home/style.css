@@ -1,0 +1,36 @@
+.map-container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start; 
+    height: 90vh; 
+    background-color: #f4f4f4;
+  }
+
+  #map {
+    height: 100%;
+    width: 80%;
+    border: 1px solid #ddd; 
+  }
+
+  .log-container {
+    display: flex;
+    justify-content: flex-end; 
+  }
+
+  .log-container > a > button {
+    margin: 10px 10px; 
+    padding: 10px 20px;
+    background-color: #667382;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .log-container > a > button:hover {
+    background-color: #5e6062;
+  }

@@ -1,0 +1,150 @@
+  .upload-container {
+    display: flex;
+    justify-content: flex-end; 
+  }
+
+  .upload-container > a > button {
+    margin: 10px 10px; 
+    padding: 10px 20px;
+    background-color: #667382;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .upload-container > a > button:hover {
+    background-color: #5e6062;
+  }
+
+  /* Styles généraux */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h2.marker {
+  font-size: 18px;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+h2.marker:hover {
+  background-color: #dce1e4;
+}
+
+.markers {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Pagination styles */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.pagination button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  background-color: #667382;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #5e6062;
+}
+
+.pagination button.selected {
+  background-color: #202631;
+  cursor: default;
+}
+
+.pagination button.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Pour les boutons précédent et suivant */
+.pagination .prev,
+.pagination .next {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Styles pour le popup */
+.video-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 600px;
+  width: 90%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.popup-content video {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.download-btn {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #667382;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.download-btn:hover {
+  background-color: #5e6062;
+}
+
+.close-popup {
+  position: absolute;
+  padding: 2px 6px;
+  top: 10px;
+  right: 10px;
+  background-color: #aabfd6;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #000000;
+}
