@@ -31,7 +31,7 @@ const onMarkerClick = async (event) => {
 const fetchVideosMarkers = async () => {
   try {
     const response = await fetch(
-      `${API_URL}/stations/videos/metadata?p=${page}&offset=${offset}&access_level=${encodeURIComponent(localStorage.getItem("access_level"))}`,
+      `${API_URL}/stations/videos/infos?p=${page}&offset=${offset}&access_level=${encodeURIComponent(localStorage.getItem("access_level"))}`,
       {
         headers: {
           "Content-Type": "application/json",
@@ -75,7 +75,7 @@ const sanitizeHTML = (str) => {
 const fetchVideosCount = async () => {
   try {
     const response = await fetch(
-      `${API_URL}/stations/videos/metadata/count`,
+      `${API_URL}/stations/videos/infos/count`,
       {
         headers: {
           "Content-Type": "application/json",
