@@ -1,12 +1,6 @@
 API_URL = "";
 
-let stations = [
-  {
-    "latitude": 48.8566,
-    "longitude": 2.3522,
-    "site": "Station 1"
-  }
-];
+let stations = [];
 
 const fetchStationsGPS = async () => {
   try {
@@ -23,7 +17,6 @@ const fetchStationsGPS = async () => {
     stations = await response.json();
     console.log("Stations récupérées :", stations);
 
-    // add markers on stations of each video
     addMarkersToMap();
   } catch (error) {
     console.error("Impossible de récupérer les données des stations.");
