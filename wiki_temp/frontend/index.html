@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="form-container">
+    <form>
+        <h1 id="welcome-message">Welcome!</h1>
+        <p id="user-details">Loading user details...</p>
+    </form>
+</div>
+<div class="videos-container">
+    <h2>Available Videos</h2>
+    <ul id="videos-list">
+        <li>Loading videos...</li>
+    </ul>
+
+    <!-- Upload Section -->
+    <div id="upload-section" style="display: none;">
+        <h3>Upload a Video</h3>
+        <form id="upload-form" enctype="multipart/form-data">
+            <input type="file" id="video-file" name="video" accept="video/*">
+            <input type="file" id="metadata-file" name="metadata" accept=".json">
+            <button type="submit">Upload</button>
+        </form>
+        <p id="upload-message"></p>
+
+    </div>
+</div>
+
+<script src = "index.js"> </script>
+
+</body>
+</html>
