@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- User Information Section -->
+<div class="form-container">
+    <form>
+        <h1 id="welcome-message">Welcome!</h1>
+        <p id="user-details">Loading user details...</p>
+    </form>
+</div>
+
+<!-- Available Videos Section -->
+<div class="videos-container">
+    <h2>Available Videos</h2>
+    <ul id="videos-list">
+        <li>Loading videos...</li>
+    </ul>
+</div>
+
+<!-- Video Player Section -->
+<div id="video-player-container" style="margin-top: 20px;">
+    <h3>Video Player</h3>
+    <video id="video-player" controls width="640">
+        <source id="video-source" src="" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p id="alert-message" style="color: red; display: none;">
+        You have reached the maximum allowed playback time.
+    </p>
+</div>
+
+<!-- Upload Video and Metadata Section -->
+<div id="upload-section" style="display: none; margin-top: 20px;">
+    <h3>Upload Video and JSON Metadata</h3>
+    <form id="upload-form" enctype="multipart/form-data">
+        <label for="video-file">Select Video File:</label>
+        <input type="file" id="video-file" name="video" accept="video/*">
+
+        <label for="metadata-file">Select JSON File:</label>
+        <input type="file" id="metadata-file" accept=".json">
+
+        <label for="json-content">Edit JSON:</label>
+        <textarea id="json-content" rows="10" cols="50" placeholder="JSON content will appear here..."></textarea>
+
+        <br>
+        <button type="submit">Upload</button>
+    </form>
+    <p id="upload-message"></p>
+</div>
+
+<!-- JavaScript -->
+<script src="index.js"></script>
+</body>
+</html>
