@@ -1,9 +1,0 @@
-[24-Nov-2024 18:19:44 UTC] PHP Notice:  Only variables should be passed by reference in C:\wamp64\www\wiki_temp\backend\upload_video.php on line 85
-[15-Dec-2024 12:23:43 UTC] Failed to trim video: Bubbles.mp4
-[15-Dec-2024 12:23:43 UTC] Failed to trim video: Waves.mp4
-[15-Dec-2024 12:23:43 UTC] Failed to trim video: Bubbles.mp4
-[15-Dec-2024 12:23:43 UTC] Failed to trim video: FloridaWaves.mp4
-[15-Dec-2024 12:24:10 UTC] Failed to trim video: Bubbles.mp4
-[15-Dec-2024 12:24:10 UTC] Failed to trim video: Waves.mp4
-[15-Dec-2024 12:24:10 UTC] Failed to trim video: Bubbles.mp4
-[15-Dec-2024 12:24:10 UTC] Failed to trim video: FloridaWaves.mp4
