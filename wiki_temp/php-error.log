@@ -1,0 +1,26 @@
+[24-Nov-2024 18:19:44 UTC] PHP Notice:  Only variables should be passed by reference in C:\wamp64\www\wiki_temp\backend\upload_video.php on line 85
+[15-Dec-2024 12:23:43 UTC] Failed to trim video: Bubbles.mp4
+[15-Dec-2024 12:23:43 UTC] Failed to trim video: Waves.mp4
+[15-Dec-2024 12:23:43 UTC] Failed to trim video: Bubbles.mp4
+[15-Dec-2024 12:23:43 UTC] Failed to trim video: FloridaWaves.mp4
+[15-Dec-2024 12:24:10 UTC] Failed to trim video: Bubbles.mp4
+[15-Dec-2024 12:24:10 UTC] Failed to trim video: Waves.mp4
+[15-Dec-2024 12:24:10 UTC] Failed to trim video: Bubbles.mp4
+[15-Dec-2024 12:24:10 UTC] Failed to trim video: FloridaWaves.mp4
+[18-Dec-2024 19:23:22 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\wiki_temp\backend\upload_video.php on line 47
+[18-Dec-2024 19:23:27 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\wiki_temp\backend\upload_video.php on line 47
+[18-Dec-2024 19:24:28 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\wiki_temp\backend\upload_video.php on line 47
+[18-Dec-2024 20:16:20 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in C:\wamp64\www\wiki_temp\backend\upload_video.php:59
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\wiki_temp\backend\upload_video.php on line 59
+[18-Dec-2024 20:21:39 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\wiki_temp\backend\upload_video.php on line 47
+[18-Dec-2024 20:21:40 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\wiki_temp\backend\upload_video.php on line 47
+[18-Dec-2024 20:21:40 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\wiki_temp\backend\upload_video.php on line 47
+[18-Dec-2024 20:21:41 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\wiki_temp\backend\upload_video.php on line 47
+[18-Dec-2024 20:21:42 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\wiki_temp\backend\upload_video.php on line 47
+[18-Dec-2024 20:21:42 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\wiki_temp\backend\upload_video.php on line 47
+[18-Dec-2024 20:21:54 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\wiki_temp\backend\upload_video.php on line 47
+[18-Dec-2024 20:22:09 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\wiki_temp\backend\upload_video.php on line 47
+[19-Dec-2024 08:47:30 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\wiki_temp\backend\upload_video.php on line 47
+[19-Dec-2024 08:48:06 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\wiki_temp\backend\upload_video.php on line 47

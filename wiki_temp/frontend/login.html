@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8"> <!-- Sets the character encoding to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures the page is responsive -->
+    <title>Login Page</title> <!-- Title of the page -->
+
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- Link to external JavaScript file for functionality -->
+    <script src="login.js" defer></script> <!-- The defer attribute ensures the script runs after the HTML is loaded -->
+</head>
+<body>
+<!-- Login Form -->
+<form id="login-form">
+    <h1>Login</h1> <!-- Form header -->
+
+    <!-- Username input field -->
+    <div>
+        <input type="text" id="username" placeholder="Username" required>
+        <!-- `id="username"`: Used to uniquely identify the field for JavaScript -->
+        <!-- `placeholder="Username"`: Displayed text inside the input when empty -->
+        <!-- `required`: Ensures the field must be filled before submission -->
+    </div>
+
+    <!-- Password input field -->
+    <div>
+        <input type="password" id="password" placeholder="Password" required>
+        <!-- `type="password"`: Hides the input text for security -->
+        <!-- `id="password"`: Unique identifier for JavaScript -->
+        <!-- `placeholder="Password"`: Displayed text inside the input when empty -->
+        <!-- `required`: Ensures the field must be filled before submission -->
+    </div>
+
+    <!-- Submit button for logging in -->
+    <button type="submit">Login</button>
+    <!-- A regular button for logging in as General Public -->
+    <button id="general-public-button">Login as General Public</button>
+    <!-- `id="general-public-button"`: Uniquely identifies the button for JavaScript -->
+
+    <!-- Link to sign-up page -->
+    <div>
+        Don't have an account? <a href="signup.html">Sign up</a>
+        <!-- `a href="signup.html"`: Redirects the user to the sign-up page -->
+    </div>
+</form>
+</body>
+</html>
